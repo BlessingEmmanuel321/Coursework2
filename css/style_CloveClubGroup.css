@@ -1,0 +1,142 @@
+body {
+background-color: #e9e3a4;
+}
+*{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 40;
+}
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+}
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  background-color: transparent;
+}
+.nav-item:hover {
+  border-bottom: 1px solid white;
+}
+.header {
+  text-align: center;
+}
+
+.container {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
+p {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+.map {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  right: 0;
+  padding-top: 110px;
+}
+h3 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.HomePage {
+  color: black;
+  position: absolute;
+  padding-left: 1050px;
+  text-transform: uppercase;
+}
+.title {
+  color: #ffffc8;
+  font-weight: bold;
+  cursor: auto;
+}
+.list {
+  color: #c2be8a;
+  font-weight: bold;
+}
+footer {
+  font-size: 0.6em;
+  text-align: center;
+  position: absolute;
+  padding-bottom: 200px;
+  padding-top: 400px;
+  padding-left: 450px;
+}
+.form {
+  position: absolute;
+  padding-top: -60px;
+  padding-left: 200px;
+  letter-spacing: 0.2em;
+}
+  input[type=text], select {
+  width: 250px;
+  height: 40px;
+  line-height: 1;
+  background-color: inherit;
+  color: black;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 1em, 0.75em, 0.75em ;
+  margin-bottom: 0.625rem;
+  border: 1px solid black;
+  border-radius: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.w3-btn {width:150px;}
+
+input[type=submit]:hover {
+  background-color: inherit;
+  padding: 1px 6px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+}
+
+.w3-btn {
+  width:150px;
+}
+
+  input[type=submit] {
+  width: 150px;
+  height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-color: #e9e3a4;
+  color: black;
+  padding: 1px 6px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+h3 {
+  font: uppercase;
+}

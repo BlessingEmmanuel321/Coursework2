@@ -1,0 +1,86 @@
+body {
+  background-image: url(../images/background.jpg);
+}
+*{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 40;
+}
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+}
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  background-color: transparent;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid white;
+}
+.page1 {
+  background-color: rgba(255, 100, 100, 0.65);
+  display: block;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.3333;
+  position: fixed;
+  padding-left: 0px;
+  padding-right: 50px;
+  padding-bottom: 90px;
+  padding-top: 200px;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 8px;
+  width: 204px;
+  height: 42px;
+}
+import font from google
+p {
+  font: Bodoni-Normal, Georgia,serif;
+  display: block;
+}
+
+.image {
+  background-image: url(../images/Restaurant_image.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button2 {
+  background-color: transparent;
+  border: black;
+  text-align: center;
+  padding: 15px 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1.25rem;
+  letter-spacing: 0.2rem;
+  line height: 1;
+  margin: 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.HomePage {
+  color: white;
+  position: absolute;
+  padding-left: 520px;
+  text-transform: uppercase;
+}
